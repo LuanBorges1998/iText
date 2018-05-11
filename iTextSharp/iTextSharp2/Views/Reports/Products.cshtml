@@ -1,41 +1,34 @@
 ﻿@model iTextSharp2.Models.Processo
+<link href="~/Resources/estilo.css" rel="stylesheet" />
+<table class="tabela" style="border: 1px solid black; text-align:center">
+    <tr style="width:100%">
+        <th style="border: 1px solid black;">Melhor empresa de advogados do Brasil</th>
+    </tr>
+</table>
+<table class="tabela" style="border: 1px solid black; text-align:center">
+    <tr style="width:100%">
+        <td style="border: 1px solid black;">Dados de um processo</td>
+    </tr>
+    <tr style="width:100%">
+        <td style="border: 1px solid black;">
+            Advogado: @Html.DisplayFor(model => model.Advogado)
+        </td>
+    </tr>
+    <tr style="width:100%">
+        <td style="border: 1px solid black;">
+            Cliente: @Html.DisplayFor(model => model.Cliente)
+        </td>
 
-<div>
-    <h4>Processo</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Advogado)
-        </dt>
+        <td style="border: 1px solid black;">
+            Contrário: @Html.DisplayFor(model => model.Contrario)
+        </td>
+    </tr>
 
-        <dd>
-            @Html.DisplayFor(model => model.Advogado)
-        </dd>
+    <tr style="width:100%">
+        <td style="border: 1px solid black;">
+            Descrição: @Html.DisplayFor(model => model.Descricao)
+        </td>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Cliente)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Cliente)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Contrario)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Contrario)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-
-    </dl>
-</div>
+    </tr>
+</table>
 

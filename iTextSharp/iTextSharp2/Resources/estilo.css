@@ -1,0 +1,11 @@
+﻿body {
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.tabela {
+    width:100%;
+    border: 1px;
+}
