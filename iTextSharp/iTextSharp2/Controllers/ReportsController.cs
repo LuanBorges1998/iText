@@ -1,6 +1,7 @@
 ﻿using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.tool.xml;
+using iTextSharp2.Repository;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,10 +15,11 @@ namespace iTextSharp2.Controllers
 {
     public class ReportsController : Controller
     {
+        ProcessoRepository repository = new ProcessoRepository();
         // GET: Reports
         public ActionResult Products()
         {
-            var model = new { Nome = "Penihel" };
+            var model = repository.GetProcesso(2);
 
             ViewBag.Teste = "Teste";
             string htmlText = RenderViewToString("Products", model);
@@ -31,9 +33,9 @@ namespace iTextSharp2.Controllers
             StreamWriter escritor = null;
             try
             {
-                if (System.IO.File.Exists(@"C:\Users\luan\source\repos\iTextSharp\arquivo.txt"))
+                if (System.IO.File.Exists(@"C:\Users\luan\source\repos\iText\iText\iTextSharp\arquivo.txt"))
                 {
-                    using (arquivo = System.IO.File.Open(@"C:\Users\luan\source\repos\iTextSharp\arquivo.txt", FileMode.Open))
+                    using (arquivo = System.IO.File.Open(@"C:\Users\luan\source\repos\iText\iText\iTextSharp\arquivo.txt", FileMode.Open))
                     using (escritor = new StreamWriter(arquivo))
                     {
                         //escritor.WriteLine(txtEscrita.Text);
@@ -41,12 +43,12 @@ namespace iTextSharp2.Controllers
                 }
                 else
                 {
-                    using (arquivo = System.IO.File.Open(@"C:\Users\luan\source\repos\iTextSharp\arquivo.txt", FileMode.Create))
+                    using (arquivo = System.IO.File.Open(@"C:\Users\luan\source\repos\iText\iText\iTextSharp\arquivo.txt", FileMode.Create))
                     using (escritor = new StreamWriter(arquivo))
                     {
                         //escritor.WriteLine(txtEscrita.Text);
                     }
-                    using (arquivo = System.IO.File.Open(@"C:\Users\luan\source\repos\iTextSharp\arquivo.pdf", FileMode.Create))
+                    using (arquivo = System.IO.File.Open(@"C:\Users\luan\source\repos\iText\iText\iTextSharp\arquivo.pdf", FileMode.Create))
                     {
                         //byte[] buffer = new byte[3];
                         foreach (byte b in buffer)

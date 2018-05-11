@@ -1,16 +1,41 @@
-﻿<div>
-    <h1>Está é lista de produtos</h1>
-    <table>
-        <tr>
-            <td>
-                Este html será renderizado em PDF
-            </td>
-            <td>
-                Aqui um exemplo utilizando Razor:@System.DateTime.Now.ToString()
-            </td>
-            <td>
-                @ViewBag.Teste
-            </td>
-        </tr>
-    </table>
+﻿@model iTextSharp2.Models.Processo
+
+<div>
+    <h4>Processo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Advogado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Advogado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contrario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contrario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+    </dl>
 </div>
+
