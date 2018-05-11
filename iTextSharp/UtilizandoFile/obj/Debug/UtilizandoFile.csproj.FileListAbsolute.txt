@@ -1,0 +1,10 @@
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\bin\Debug\UtilizandoFile.exe.config
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\bin\Debug\UtilizandoFile.exe
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\bin\Debug\UtilizandoFile.pdb
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\obj\Debug\UtilizandoFile.csprojResolveAssemblyReference.cache
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\obj\Debug\UtilizandoFile.Form1.resources
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\obj\Debug\UtilizandoFile.Properties.Resources.resources
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\obj\Debug\UtilizandoFile.csproj.GenerateResource.Cache
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\obj\Debug\UtilizandoFile.csproj.CoreCompileInputs.cache
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\obj\Debug\UtilizandoFile.exe
+C:\Users\luan\source\repos\iTextSharp\UtilizandoFile\obj\Debug\UtilizandoFile.pdb

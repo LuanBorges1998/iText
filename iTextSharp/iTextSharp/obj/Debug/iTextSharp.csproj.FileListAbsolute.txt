@@ -1,0 +1,13 @@
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\bin\Debug\iTextSharp.exe.config
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\bin\Debug\iTextSharp.exe
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\bin\Debug\iTextSharp.pdb
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\bin\Debug\itextsharp.dll
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\obj\Debug\iTextSharp.csprojResolveAssemblyReference.cache
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\obj\Debug\iTextSharp.Form1.resources
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\obj\Debug\iTextSharp.Properties.Resources.resources
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\obj\Debug\iTextSharp.csproj.GenerateResource.Cache
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\obj\Debug\iTextSharp.csproj.CoreCompileInputs.cache
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\obj\Debug\iTextSharp.exe
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\obj\Debug\iTextSharp.pdb
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\bin\Debug\Pdfizer.dll
+C:\Users\luan\source\repos\iTextSharp\iTextSharp\bin\Debug\ICSharpCode.SharpZipLib.dll
