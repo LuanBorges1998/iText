@@ -1,34 +1,37 @@
 ﻿@model iTextSharp2.Models.Processo
 <link href="~/Resources/estilo.css" rel="stylesheet" />
-<table class="tabela" style="border: 1px solid black; text-align:center">
+<table class="tabela" style="border: 1px solid black; text-align:center; width:100%; margin-bottom:30px;">
     <tr style="width:100%">
-        <th style="border: 1px solid black;">Melhor empresa de advogados do Brasil</th>
+        <th>Melhor empresa de advogados do Brasil</th>
     </tr>
 </table>
-<table class="tabela" style="border: 1px solid black; text-align:center">
-    <tr style="width:100%">
-        <td style="border: 1px solid black;">Dados de um processo</td>
+
+<table class="tabela" style="border: 1px solid black; text-align:center; width:100%; border-bottom: none;">
+    <tr style="width:100%;">
+        <td style="width:100%;">Dados de um processo</td>
     </tr>
-    <tr style="width:100%">
-        <td style="border: 1px solid black;">
+</table>
+<table class="tabela" style="border: 1px solid black;width:100%">
+    <tr style="width:100%;margin-bottom:30px; ">
+        <td style="margin-top:30px; margin-bottom:30px;">
             Advogado: @Html.DisplayFor(model => model.Advogado)
         </td>
     </tr>
-    <tr style="width:100%">
-        <td style="border: 1px solid black;">
+    <tr style="width:100%; margin-bottom:30px; margin-bottom:30px;">
+        <td style="margin-bottom:30px;">
             Cliente: @Html.DisplayFor(model => model.Cliente)
         </td>
-
-        <td style="border: 1px solid black;">
+    </tr>
+    <tr style="width:100%; margin-bottom:30px; margin-bottom:30px;">
+        <td style="margin-bottom:30px;">
             Contrário: @Html.DisplayFor(model => model.Contrario)
         </td>
     </tr>
 
-    <tr style="width:100%">
-        <td style="border: 1px solid black;">
+    <tr style="width:100%; margin-bottom:30px; margin-bottom:30px;">
+        <td style="margin-bottom:30px;">
             Descrição: @Html.DisplayFor(model => model.Descricao)
         </td>
-
     </tr>
 </table>
 
